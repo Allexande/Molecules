@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Molecules.dir/main.cpp.obj"
   "CMakeFiles/Molecules.dir/src/GraphicsLib.cpp.obj"
+  "CMakeFiles/Molecules.dir/src/Vec2d.cpp.obj"
   "Molecules.exe"
   "Molecules.exe.manifest"
   "Molecules.pdb"

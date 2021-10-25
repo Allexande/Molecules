@@ -196,6 +196,33 @@ src/GraphicsLib.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Molecules.dir\build.make CMakeFiles/Molecules.dir/src/GraphicsLib.cpp.s
 .PHONY : src/GraphicsLib.cpp.s
 
+src/Vec2d.obj: src/Vec2d.cpp.obj
+
+.PHONY : src/Vec2d.obj
+
+# target to build an object file
+src/Vec2d.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Molecules.dir\build.make CMakeFiles/Molecules.dir/src/Vec2d.cpp.obj
+.PHONY : src/Vec2d.cpp.obj
+
+src/Vec2d.i: src/Vec2d.cpp.i
+
+.PHONY : src/Vec2d.i
+
+# target to preprocess a source file
+src/Vec2d.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Molecules.dir\build.make CMakeFiles/Molecules.dir/src/Vec2d.cpp.i
+.PHONY : src/Vec2d.cpp.i
+
+src/Vec2d.s: src/Vec2d.cpp.s
+
+.PHONY : src/Vec2d.s
+
+# target to generate assembly for a file
+src/Vec2d.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Molecules.dir\build.make CMakeFiles/Molecules.dir/src/Vec2d.cpp.s
+.PHONY : src/Vec2d.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -211,6 +238,9 @@ help:
 	@echo ... src/GraphicsLib.obj
 	@echo ... src/GraphicsLib.i
 	@echo ... src/GraphicsLib.s
+	@echo ... src/Vec2d.obj
+	@echo ... src/Vec2d.i
+	@echo ... src/Vec2d.s
 .PHONY : help
 
 

@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/AlexanderT/CLionProjects/Molecules/include/Vec2d.h
+assert.h
+-
+math.h
+-
+
+C:/Users/AlexanderT/CLionProjects/Molecules/main.cpp
+iostream
+-
+
+C:/Users/AlexanderT/CLionProjects/Molecules/src/GraphicsLib.cpp
+../include/GraphicsLib.h
+C:/Users/AlexanderT/CLionProjects/Molecules/include/GraphicsLib.h
+
+C:/Users/AlexanderT/CLionProjects/Molecules/src/Vec2d.cpp
+../include/Vec2d.h
+C:/Users/AlexanderT/CLionProjects/Molecules/include/Vec2d.h
+
