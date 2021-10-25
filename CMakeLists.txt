@@ -3,4 +3,4 @@ project(Molecules)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Molecules main.cpp)
+add_executable(Molecules main.cpp include/GraphicsLib.hpp src/GraphicsLib.cpp)

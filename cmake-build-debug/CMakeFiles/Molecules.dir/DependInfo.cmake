@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/AlexanderT/CLionProjects/Molecules/main.cpp" "C:/Users/AlexanderT/CLionProjects/Molecules/cmake-build-debug/CMakeFiles/Molecules.dir/main.cpp.obj"
+  "C:/Users/AlexanderT/CLionProjects/Molecules/src/GraphicsLib.cpp" "C:/Users/AlexanderT/CLionProjects/Molecules/cmake-build-debug/CMakeFiles/Molecules.dir/src/GraphicsLib.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

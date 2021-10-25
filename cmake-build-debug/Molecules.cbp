@@ -80,7 +80,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/AlexanderT/CLionProjects/Molecules/include/GraphicsLib.hpp">
+			<Option target="Molecules"/>
+		</Unit>
 		<Unit filename="C:/Users/AlexanderT/CLionProjects/Molecules/main.cpp">
+			<Option target="Molecules"/>
+		</Unit>
+		<Unit filename="C:/Users/AlexanderT/CLionProjects/Molecules/src/GraphicsLib.cpp">
 			<Option target="Molecules"/>
 		</Unit>
 		<Unit filename="C:/Users/AlexanderT/CLionProjects/Molecules/CMakeLists.txt">

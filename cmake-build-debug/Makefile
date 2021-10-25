@@ -169,6 +169,33 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Molecules.dir\build.make CMakeFiles/Molecules.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/GraphicsLib.obj: src/GraphicsLib.cpp.obj
+
+.PHONY : src/GraphicsLib.obj
+
+# target to build an object file
+src/GraphicsLib.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Molecules.dir\build.make CMakeFiles/Molecules.dir/src/GraphicsLib.cpp.obj
+.PHONY : src/GraphicsLib.cpp.obj
+
+src/GraphicsLib.i: src/GraphicsLib.cpp.i
+
+.PHONY : src/GraphicsLib.i
+
+# target to preprocess a source file
+src/GraphicsLib.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Molecules.dir\build.make CMakeFiles/Molecules.dir/src/GraphicsLib.cpp.i
+.PHONY : src/GraphicsLib.cpp.i
+
+src/GraphicsLib.s: src/GraphicsLib.cpp.s
+
+.PHONY : src/GraphicsLib.s
+
+# target to generate assembly for a file
+src/GraphicsLib.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Molecules.dir\build.make CMakeFiles/Molecules.dir/src/GraphicsLib.cpp.s
+.PHONY : src/GraphicsLib.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -181,6 +208,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... src/GraphicsLib.obj
+	@echo ... src/GraphicsLib.i
+	@echo ... src/GraphicsLib.s
 .PHONY : help
 
 
