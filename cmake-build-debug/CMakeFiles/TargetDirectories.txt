@@ -1,0 +1,3 @@
+C:/Users/AlexanderT/CLionProjects/Molecules/cmake-build-debug/CMakeFiles/Molecules.dir
+C:/Users/AlexanderT/CLionProjects/Molecules/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/AlexanderT/CLionProjects/Molecules/cmake-build-debug/CMakeFiles/rebuild_cache.dir
